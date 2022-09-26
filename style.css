@@ -32,7 +32,8 @@ table
     
 }
 
-header {
+header 
+{
      background-color: #023373;
      
 }
@@ -63,14 +64,16 @@ header {
     font-size: 20px;
 }
 
-footer {
+footer 
+{
     background-color: #023373;
     font-weight: 400;
     color: white;
    text-align: center;
 }
 
-hgroup {
+hgroup
+ {
     background-color: #023373;
     font-weight: 400;
     color: white;
@@ -88,11 +91,19 @@ li
     color: white;
     
 }
-html {     scroll-behavior: smooth; }
+html 
+{    
+     scroll-behavior: smooth; 
 
-li:hover {     color: gold;     transition: 0.20s all; }
+}
 
-@media screen and (max-width: 1000px)  {
+li:hover
+ {    
+     color: gold;     transition: 0.20s all; 
+}
+
+@media screen and (max-width: 1000px)  
+{
     body {
         max-width: 600px;
     }
